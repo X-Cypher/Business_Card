@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun AndroidScreen(name: String, phoneNum: String, email: String, modifier: Modifier = Modifier.background(color = Color.Gray)){
-    Column(modifier = Modifier.fillMaxSize().background(Color(0xFFD9E4DA))) {
+    Column(modifier = Modifier.fillMaxSize().background(Color(0xFFD3F5D4))) {
         Upper(name = name )
         Lower(phoneNum = phoneNum, email = email )
     }
